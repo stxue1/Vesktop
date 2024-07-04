@@ -23,8 +23,6 @@ export interface Settings {
     customTitleBar?: boolean;
     trayIconPath?: string;
 
-    checkUpdates?: boolean;
-
     splashTheming?: boolean;
     splashColor?: string;
     splashBackground?: string;
@@ -50,7 +48,6 @@ export interface State {
     windowBounds?: Rectangle;
     displayid: int;
 
-    skippedUpdate?: string;
     firstLaunch?: boolean;
 
     steamOSLayoutVersion?: number;
